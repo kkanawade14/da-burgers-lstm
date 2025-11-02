@@ -1,0 +1,13 @@
+1. 5 x 128 combined_shock_loss(pred, truth, w1=0.3, w2=0.4, w3=0.1) + nt = 2000 , learning_rate = 0.001, seq_length = 10
+
+1. 6 x 256 combined_shock_loss(pred, truth, w1=0.3, w2=0.4, w3=0.1) + nt = 3000 , learning_rate = 0.0008, seq_length = 10
+
+1. 6 x 256 combined_shock_loss(pred, truth, w1=0.3, w2=0.4, w3=0.1) + nt = 5000 , learning_rate = 0.0006, seq_length = 10
+
+
+Experiements :
+
+1 Probablistic forecast (Ensemble forecast + Physical or NN)
+2 Prediction error analysis  - Impact of timesteps in terms of training
+
+1. 5 x 128 combined_shock_loss(pred, truth, w1=0.3, w2=0.4, w3=0.1) + nt = 2000 , learning_rate = 8e-4, seq_length = 10

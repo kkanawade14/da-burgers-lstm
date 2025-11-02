@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,107 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Python cache & build
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+
+# Virtual envs
+.env
+.venv
+venv/
+ENV/
+
+# Results, models, and large outputs
+results/
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.log
+*.csv
+
+# Figures / intermediate plots
+spacetime_heatmaps*.png
+*.pdf
+
+# Optional - ignore notebook outputs
+*.ipynb
+>>>>>>> 33d266d (LSTM-based Burgers' DA)
+
+
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# --- Jupyter & IDE ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Virtual envs ---
+.env
+.venv
+venv/
+ENV/
+
+# --- Data, results & large artifacts ---
+results/
+final_results/
+final_results_enkf/
+*.npz
+*.mat
+*.csv
+*.log
+
+# --- Models / checkpoints ---
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# --- Media & large figures ---
+*.gif
+*.mp4
+*.avi
+*.mov
+*.pdf
+*.svg
+*.eps
+
+# Common experiment figures to ignore by default:
+Figure_*.png
+heatmap*.png
+*_comparison*.png
+*_error_*.png
+avg_rmse_vs_r.png
+blue_error_all_r.png
+kf_error_all_r.png
+state_comparison_*.png
+variance_comparison_*.png
+spacetime_heatmaps*.png
+
+# --- Optional: ignore notebooks entirely ---
+# *.ipynb

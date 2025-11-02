@@ -1,0 +1,15 @@
+1. Comparison of analytical, RK4  and LSTM - animation  
+2. More time steps for the solutions to find out if LSTM diverges
+3. Experiments with higher values of r
+
+
+MOM - 27th Feb
+
+1. ensemble forecasting - Notebook as template for Rk4 and LSTM
+2. Enkf on both LSTM and RK4
+3. Paper formulation and How they have initialised the 
+
+MOM - 25th March
+variance vs r-values for EnkF
+sphagetti plots - trajectory of few ensembles for different values of r at different locations
+ 
