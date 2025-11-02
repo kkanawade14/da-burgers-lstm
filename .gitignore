@@ -310,3 +310,11 @@ spacetime_heatmaps*.png
 
 # --- Optional: ignore notebooks entirely ---
 # *.ipynb
+
+final_results/
+final_results_enkf/
+*.npz
+*.mat
+*.png
+*.gif
+*.mp4
