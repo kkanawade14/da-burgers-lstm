@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # da-burgers-lstm
 Physics-informed LSTM model for 1D Burgers’ equation data assimilation
 =======
@@ -143,5 +143,3 @@ The results compare the performance of BLUE and Kalman Filter methods across dif
 - Effect of the error variance ratio on assimilation performance
 - Conditions under which the Kalman Filter outperforms the BLUE method
 
-Detailed results and visualizations are provided in the accompanying analysis notebook.
->>>>>>> 33d266d (LSTM-based Burgers' DA)
